@@ -1,8 +1,10 @@
-# Crypto Dashboard ![Crypto Dashboard Logo]()
+# Crypto Dashboard ![Crypto Dashboard Logo](https://res.cloudinary.com/dgl0v7vwf/image/upload/v1758553698/Screenshot_2025-09-22_203116_ltmnmx.png)
 
 A production-like crypto dashboard built with React, Vite, and TypeScript, focusing on clean architecture, performance, and a polished user experience. This application fetches live market data from the CoinGecko API and presents it in a responsive and interactive interface.
 
-### [Live Demo Link]() ## ✨ Features
+### [Live Demo Link](https://crypto-dashboard-fyrn.vercel.app/) 
+
+## ✨ Features
 
 * **Live Market Data**: Fetches and displays real-time cryptocurrency data from the CoinGecko API.
 * **Interactive Main Table**: A paginated view of top cryptocurrencies with client-side searching and sorting by price, market cap, and more.
