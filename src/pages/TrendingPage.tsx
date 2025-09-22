@@ -2,7 +2,6 @@
 import { useTrendingCoins } from '@/hooks/useTrendingCoins';
 import { useState } from 'react';
 import { CoinDetailModal } from '@/components/dashboard/CoinDetailModal';
-import { SkeletonLoader } from '@/components/ui/SkeletonLoader';
 import { useFullCoinList } from '@/hooks/useFullCoinList';
 import { Coin } from '@/types';
 import { CoinsTable } from '@/components/dashboard/CoinsTable';

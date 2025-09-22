@@ -1,8 +1,10 @@
+// vite.config.ts
+/// <reference types="vitest" />
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
 import path from 'path'
 
-// https://vite.dev/config/
+// No changes to the main config object, just how it's defined
 export default defineConfig({
   plugins: [react()],
   resolve: {
@@ -10,7 +12,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  test: { 
+  test: {
     globals: true,
     environment: 'jsdom',
     setupFiles: './src/test/setup.ts',
